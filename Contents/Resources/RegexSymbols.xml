@@ -15,6 +15,14 @@
       <regex>\bclass\s(\w+)</regex>
     </symbol>
     
+    <symbol id="language.class" font-weight="bold" image="SymbolE"  useforautocomplete="yes" indentation="0" ignoreblocks="no">
+      <regex>\benum\s(\w+)</regex>
+    </symbol>
+    
+    <symbol id="language.class" font-weight="bold" image="SymbolP"  useforautocomplete="yes" indentation="0" ignoreblocks="no">
+      <regex>\bprotocol\s(\w+)</regex>
+    </symbol>
+    
     <symbol id="language.class" font-weight="bold" image="SymbolS"  useforautocomplete="yes" indentation="0" ignoreblocks="no">
       <regex>\bstruct\s(\w+)</regex>
     </symbol>
