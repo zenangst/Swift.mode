@@ -96,8 +96,11 @@
       
       <keywords id="Types" scope="style.value.string">
         <string>Array</string>
+        <string>Bool</string>
         <string>Dictionary</string>
+        <string>Double</string>
         <string>Float</string>
+        <string>Int</string>
         <string>String</string>
         <string>Point</string>
         <string>Size</string>
