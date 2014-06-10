@@ -9,13 +9,17 @@
   </head>
   <states>
     <default id="Base" usesymbolsfrommode="Swift" useautocompletefrommode="Swift" scope="meta.default">
+      <import mode="C" keywords-only="yes"/>
+      <state-link mode="C" state="Preprocessor"/>
       <state id="Block" type="block" foldable="yes" scope="meta.block.curly">
         <begin>
-          <regex>(?:^[ \t]*[-+][^(-;]*\([A-Za-z0-9 *_]*\)[A-Za-z0-9_ \t\n\r]+)?{</regex>
+          <regex>{</regex>
         </begin>
         <end>
           <regex>}</regex>
         </end>
+        <import mode="C" keywords-only="yes"/>
+        <import/>
       </state>
       <state id="String" type="string" scope="string.double" usespellchecking="yes">
           <begin>
@@ -41,6 +45,56 @@
               <regex>(?:[\n\r])|.?(?=\?>)</regex>
           </end>
       </state>
+      
+      <keywords id="Objects and variables" scope="markup.tag.attribute.name" casesensitive="no">
+        <regex>var\s(\w+)</regex>
+        <regex>let\s(\w+)</regex>
+        <regex>(\w+)\.</regex>
+      </keywords>
+      
+      <keywords id="Properties" scope="language.variable" casesensitive="no">
+        <regex>\.([a-z]\w+)</regex>
+      </keywords>
+      
+      <keywords id="Keywords" scope="support">
+        <string>let</string>
+        <string>var</string>
+        <string>func</string>
+      </keywords>
+      
+      <keywords id="Control keywords" scope="keyword.type">
+        <string>let</string>
+        <string>var</string>
+        <string>func</string>
+        <string>struct</string>
+        <string>class</string>
+        <string>true</string>
+        <string>false</string>
+        <string>nil</string>
+      </keywords>
+      
+      <keywords id="Types" scope="style.value.string">
+        <string>Array</string>
+        <string>Dictionary</string>
+        <string>Float</string>
+        <string>String</string>
+        <string>Point</string>
+        <string>Size</string>
+      </keywords>
+      
+      <keywords id="Functions" scope="language.function" casesensitive="no">
+        <regex>([A-Za-z0-9_]+ *)\(</regex>
+      </keywords>
+      
+      <keywords id="Class and structs" scope="keyword.type" casesensitive="no">
+        <regex>class\+(\w+)</regex>
+        <regex>struct\+(\w+)</regex>
+      </keywords>
+      
+      <keywords id="Named parameters" scope="language.variable">
+        <regex>(\w+):</regex>
+      </keywords>
+      
     </default>
   </states>
 </syntax>
