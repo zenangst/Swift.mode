@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE syntax SYSTEM "syntax.dtd">
+<syntax>
+  <head>
+    <name>Swift</name>
+      <charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@]]></charsintokens>
+      <charsincompletion><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-@]]></charsincompletion>
+      <folding toplevel="2"/>
+  </head>
+  <states>
+    <default id="Base" usesymbolsfrommode="Swift" useautocompletefrommode="Swift" scope="meta.default">
+      <state id="Block" type="block" foldable="yes" scope="meta.block.curly">
+        <begin>
+          <regex>(?:^[ \t]*[-+][^(-;]*\([A-Za-z0-9 *_]*\)[A-Za-z0-9_ \t\n\r]+)?{</regex>
+        </begin>
+        <end>
+          <regex>}</regex>
+        </end>
+      </state>
+      <state id="String" type="string" scope="string.double" usespellchecking="yes">
+          <begin>
+              <regex>"</regex>
+          </begin>
+          <end>
+              <regex>(((?&lt;!\\)(\\\\)*)|^)"</regex>
+          </end>
+      </state>
+      <state id="Comment" type="comment" foldable="yes" scope="comment.block">
+          <begin>
+              <regex>/\*</regex><autoend>\*/</autoend>
+          </begin>
+          <end>
+              <regex>\*/</regex>
+          </end>
+      </state>
+      <state id="SingleComment" type="comment" scope="comment.line">
+          <begin>
+              <regex>(?://)|#</regex>
+          </begin>
+          <end>
+              <regex>(?:[\n\r])|.?(?=\?>)</regex>
+          </end>
+      </state>
+    </default>
+  </states>
+</syntax>
