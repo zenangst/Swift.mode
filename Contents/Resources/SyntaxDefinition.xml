@@ -68,6 +68,7 @@
         <string>enum</string>
         <string>protocol</string>
         <string>extension</string>
+        <string>mutating</string>
       </keywords>
       
       <keywords id="Control keywords" scope="keyword.type">

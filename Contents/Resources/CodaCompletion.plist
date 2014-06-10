@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comments</key>
+	<dict>
+		<key>EndTag</key>
+		<string>*/</string>
+		<key>StartTag</key>
+		<string>/*</string>
+	</dict>
+	<key>Completions</key>
+	<array>
+		<dict>
+			<key>ID</key>
+			<string>class</string>
+			<key>String</key>
+			<string>class</string>
+			<key>PostString</key>
+			<string></string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>enum</string>
+			<key>String</key>
+			<string>enum</string>
+			<key>PostString</key>
+			<string></string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>false</string>
+			<key>String</key>
+			<string>false</string>
+			<key>PostString</key>
+			<string></string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>func</string>
+			<key>String</key>
+			<string>func</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>let</string>
+			<key>String</key>
+			<string>let</string>
+			<key>PostString</key>
+			<string></string>
+			<key>SelectionRange</key>
+			<string>{3, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>println</string>
+			<key>String</key>
+			<string>println</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>protocol</string>
+			<key>String</key>
+			<string>protocol</string>
+			<key>PostString</key>
+			<string></string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+		</dict>
+    <dict>
+      <key>ID</key>
+      <string>self</string>
+      <key>String</key>
+      <string>self</string>
+      <key>PostString</key>
+      <string></string>
+      <key>SelectionRange</key>
+      <string>{4, 0}</string>
+    </dict>
+    <dict>
+      <key>ID</key>
+      <string>String</string>
+      <key>String</key>
+      <string>String</string>
+      <key>PostString</key>
+      <string></string>
+      <key>SelectionRange</key>
+      <string>{6, 0}</string>
+    </dict>
+    <dict>
+      <key>ID</key>
+      <string>super</string>
+      <key>String</key>
+      <string>super</string>
+      <key>PostString</key>
+      <string></string>
+      <key>SelectionRange</key>
+      <string>{5, 0}</string>
+    </dict>
+    <dict>
+      <key>ID</key>
+      <string>struct</string>
+      <key>String</key>
+      <string>struct</string>
+      <key>PostString</key>
+      <string></string>
+      <key>SelectionRange</key>
+      <string>{6, 0}</string>
+    </dict>
+		<dict>
+			<key>ID</key>
+			<string>var</string>
+			<key>String</key>
+			<string>var</string>
+			<key>PostString</key>
+			<string></string>
+			<key>SelectionRange</key>
+			<string>{3, 0}</string>
+		</dict>
+  </array>
+</dict>
+</plist>
