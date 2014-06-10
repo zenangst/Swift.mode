@@ -59,7 +59,7 @@
         <regex>\.([a-z]\w+)</regex>
       </keywords>
       
-      <keywords id="Keywords" scope="support">
+      <keywords id="Keywords" scope="keyword">
         <string>let</string>
         <string>var</string>
         <string>func</string>
@@ -113,9 +113,11 @@
         <regex>([A-Za-z0-9_]+ *)\(</regex>
       </keywords>
       
-      <keywords id="Class and structs" scope="language.function" casesensitive="no">
+      <keywords id="Classes, enums, structs and protocols" scope="language.function" casesensitive="no">
         <regex>class\s+(\w+)</regex>
         <regex>struct\s+(\w+)</regex>
+        <regex>enum\s+(\w+)</regex>
+        <regex>protocol\s+(\w+)</regex>
       </keywords>
       
       <keywords id="Named parameters" scope="language.variable">
