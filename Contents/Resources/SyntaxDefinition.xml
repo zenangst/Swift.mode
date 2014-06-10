@@ -77,6 +77,8 @@
         <string>nil</string>
         <string>as</string>
         <string>in</string>
+        <string>return</string>
+        <string>override</string>
       </keywords>
       
       <keywords id="Attributes Reference" scope="keyword.type">
@@ -97,6 +99,7 @@
       <keywords id="Types" scope="style.value.string">
         <string>Array</string>
         <string>Bool</string>
+        <string>Character</string>
         <string>Dictionary</string>
         <string>Double</string>
         <string>Float</string>
@@ -118,6 +121,19 @@
       <keywords id="Named parameters" scope="language.variable">
         <regex>(\w+):</regex>
       </keywords>
+      
+      <keywords id="Plus Operator" scope="style.value.keyword">
+        <regex>(\+)</regex>
+      </keywords>
+      
+      <keywords id="Minus Operator" scope="style.value.numeric">
+        <regex>(\-{1,2})</regex>
+      </keywords>
+      
+      <keywords id="Minus Operator" scope="meta.default">
+        <regex>(\-&gt;)</regex>
+      </keywords>
+      
       
     </default>
   </states>
