@@ -17,9 +17,13 @@
 			<key>String</key>
 			<string>class</string>
 			<key>PostString</key>
-			<string></string>
+			<string> </string>
 			<key>SelectionRange</key>
-			<string>{5, 0}</string>
+			<string>{6, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>className</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -27,9 +31,13 @@
 			<key>String</key>
 			<string>enum</string>
 			<key>PostString</key>
-			<string></string>
+			<string> </string>
 			<key>SelectionRange</key>
-			<string>{4, 0}</string>
+			<string>{5, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>enumName</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -50,6 +58,10 @@
 			<string> </string>
 			<key>SelectionRange</key>
 			<string>{5, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>functionName</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -57,9 +69,13 @@
 			<key>String</key>
 			<string>let</string>
 			<key>PostString</key>
-			<string></string>
+			<string> </string>
 			<key>SelectionRange</key>
-			<string>{3, 0}</string>
+			<string>{4, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>constant</string>
+			</array>
 		</dict>
 		<dict>
 			<key>ID</key>
@@ -117,9 +133,13 @@
       <key>String</key>
       <string>struct</string>
       <key>PostString</key>
-      <string></string>
+      <string> </string>
       <key>SelectionRange</key>
-      <string>{6, 0}</string>
+      <string>{7, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>structName</string>
+			</array>
     </dict>
 		<dict>
 			<key>ID</key>
@@ -127,9 +147,13 @@
 			<key>String</key>
 			<string>var</string>
 			<key>PostString</key>
-			<string></string>
+			<string> </string>
 			<key>SelectionRange</key>
-			<string>{3, 0}</string>
+			<string>{4, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>variable</string>
+			</array>
 		</dict>
   </array>
 </dict>
