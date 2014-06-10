@@ -28,6 +28,9 @@
           <end>
               <regex>(((?&lt;!\\)(\\\\)*)|^)"</regex>
           </end>
+          <keywords id="String Interpolation" useforautocomplete="no" scope="language.variable.string">
+              <regex>\\\(([^\)]+)</regex>
+          </keywords>
       </state>
       <state id="Comment" type="comment" foldable="yes" scope="comment.block">
           <begin>
@@ -86,9 +89,9 @@
         <regex>([A-Za-z0-9_]+ *)\(</regex>
       </keywords>
       
-      <keywords id="Class and structs" scope="keyword.type" casesensitive="no">
-        <regex>class\+(\w+)</regex>
-        <regex>struct\+(\w+)</regex>
+      <keywords id="Class and structs" scope="language.function" casesensitive="no">
+        <regex>class\s+(\w+)</regex>
+        <regex>struct\s+(\w+)</regex>
       </keywords>
       
       <keywords id="Named parameters" scope="language.variable">

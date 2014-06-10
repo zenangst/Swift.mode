@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE syntax SYSTEM "symbol.dtd">
+<symbols>
+    <blocks>
+        <beginregex>{</beginregex>
+        <endregex>}</endregex>
+    </blocks>
+    <symbol id="language.variable" hidden="yes" useforautocomplete="yes" casesensitive="no">
+      <regex>var\s(\w+)</regex>
+      <regex>let\s(\w+)</regex>
+      <regex>(\w+)\.</regex>
+    </symbol>
+    
+    <symbol id="language.class" font-weight="bold" image="SymbolC"  useforautocomplete="yes" indentation="0" ignoreblocks="no">
+      <regex>\bclass\s(\w+)</regex>
+    </symbol>
+    
+    <symbol id="language.class" font-weight="bold" image="SymbolS"  useforautocomplete="yes" indentation="0" ignoreblocks="no">
+      <regex>\bstruct\s(\w+)</regex>
+    </symbol>
+    
+    <symbol id="language.function" hidden="no" image="SymbolF()" indentation="1" useforautocomplete="yes">
+      <regex>((\w+)\s*\(([^{\n]*)\))[^{};\n]*\{</regex>
+      <postprocess>
+        <find>[\n\r]</find>
+        <replace></replace>
+        <find>[\t]+</find>
+        <replace></replace>
+      </postprocess>
+      <arguments>(&amp;?(\w+)[^,]*)[,]*</arguments>
+      <captures>{ "value" : "1", "name" : "2", "arguments" : "3" }</captures>
+    </symbol>
+</symbols>
