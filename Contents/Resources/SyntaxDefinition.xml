@@ -74,6 +74,20 @@
         <string>true</string>
         <string>false</string>
         <string>nil</string>
+      
+      <keywords id="Attributes Reference" scope="keyword.type">
+        <string>@assignment</string>
+        <string>@class_protocol</string>
+        <string>@exported</string>
+        <string>@final</string>
+        <string>@lazy</string>
+        <string>@NSCopying</string>
+        <string>@NSManaged</string>
+        <string>@objc</string>
+        <string>@optional</string>
+        <string>@required</string>
+        <string>@auto_closure</string>
+        <string>@noreturn</string>
       </keywords>
       
       <keywords id="Types" scope="style.value.string">
