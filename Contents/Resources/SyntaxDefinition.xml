@@ -63,17 +63,20 @@
         <string>let</string>
         <string>var</string>
         <string>func</string>
+        <string>struct</string>
+        <string>class</string>
+        <string>enum</string>
+        <string>protocol</string>
+        <string>extension</string>
       </keywords>
       
       <keywords id="Control keywords" scope="keyword.type">
-        <string>let</string>
-        <string>var</string>
-        <string>func</string>
-        <string>struct</string>
-        <string>class</string>
         <string>true</string>
         <string>false</string>
         <string>nil</string>
+        <string>as</string>
+        <string>in</string>
+      </keywords>
       
       <keywords id="Attributes Reference" scope="keyword.type">
         <string>@assignment</string>
