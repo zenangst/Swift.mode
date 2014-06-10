@@ -47,6 +47,16 @@
 		</dict>
     <dict>
       <key>ID</key>
+      <string>Character</string>
+      <key>String</key>
+      <string>Character</string>
+      <key>PostString</key>
+      <string></string>
+      <key>SelectionRange</key>
+      <string>{9, 0}</string>
+    </dict>
+    <dict>
+      <key>ID</key>
       <string>Dictionary</string>
       <key>String</key>
       <string>Dictionary</string>
@@ -127,6 +137,16 @@
       <key>SelectionRange</key>
       <string>{3, 0}</string>
     </dict>
+    <dict>
+      <key>ID</key>
+      <string>override</string>
+      <key>String</key>
+      <string>override</string>
+      <key>PostString</key>
+      <string></string>
+      <key>SelectionRange</key>
+      <string>{8, 0}</string>
+    </dict>
 		<dict>
 			<key>ID</key>
 			<string>println</string>
@@ -137,16 +157,26 @@
 			<key>SelectionRange</key>
 			<string>{8, 0}</string>
 		</dict>
-		<dict>
-			<key>ID</key>
-			<string>protocol</string>
-			<key>String</key>
-			<string>protocol</string>
-			<key>PostString</key>
-			<string></string>
-			<key>SelectionRange</key>
-			<string>{8, 0}</string>
-		</dict>
+    <dict>
+      <key>ID</key>
+      <string>protocol</string>
+      <key>String</key>
+      <string>protocol</string>
+      <key>PostString</key>
+      <string></string>
+      <key>SelectionRange</key>
+      <string>{8, 0}</string>
+    </dict>
+    <dict>
+      <key>ID</key>
+      <string>return</string>
+      <key>String</key>
+      <string>return</string>
+      <key>PostString</key>
+      <string> </string>
+      <key>SelectionRange</key>
+      <string>{7, 0}</string>
+    </dict>
     <dict>
       <key>ID</key>
       <string>self</string>
