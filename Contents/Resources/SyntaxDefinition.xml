@@ -28,7 +28,7 @@
           <end>
               <regex>(((?&lt;!\\)(\\\\)*)|^)"</regex>
           </end>
-          <keywords id="String Interpolation" useforautocomplete="no" scope="language.variable.string">
+          <keywords id="String Interpolation" useforautocomplete="no" scope="string.regex">
               <regex>\\\(([^\)]+)</regex>
           </keywords>
       </state>

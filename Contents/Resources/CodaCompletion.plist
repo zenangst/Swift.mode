@@ -156,6 +156,10 @@
 			<string>()</string>
 			<key>SelectionRange</key>
 			<string>{8, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>parameters</string>
+			</array>
 		</dict>
     <dict>
       <key>ID</key>

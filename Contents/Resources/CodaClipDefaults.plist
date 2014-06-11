@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>PHP-HTML</string>
+	<key>Clips</key>
+	<array>
+    
+		<dict> <!-- Basics -->
+			<key>Title</key>
+			<string>Basics</string>
+			<key>Clips</key>
+			<array>
+        
+				<dict>
+					<key>Versions</key>
+					<array/>
+					<key>Placeholders</key>
+					<array>
+						<dict>
+							<key>Range</key>
+							<string>{6, 9}</string>
+							<key>Type</key>
+							<integer>12</integer>
+						</dict>
+						<dict>
+							<key>Range</key>
+							<string>{21, 4}</string>
+							<key>Type</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>class</string>
+					<key>Trigger</key>
+					<string>class</string>
+					<key>Content</key>
+					<string><![CDATA[class className {
+    Code
+}
+]]></string>
+				</dict>
+        
+				<dict>
+					<key>Versions</key>
+					<array/>
+					<key>Placeholders</key>
+					<array>
+						<dict>
+							<key>Range</key>
+							<string>{5, 12}</string>
+							<key>Type</key>
+							<integer>12</integer>
+						</dict>
+						<dict>
+							<key>Range</key>
+							<string>{23, 11}</string>
+							<key>Type</key>
+							<integer>12</integer>
+						</dict>
+						<dict>
+							<key>Range</key>
+							<string>{41, 4}</string>
+							<key>Type</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>func</string>
+					<key>Trigger</key>
+					<string>func</string>
+					<key>Content</key>
+					<string>func functionName() -> returnValue {
+    Code
+}</string>
+				</dict>
+				<dict>
+					<key>Versions</key>
+					<array/>
+					<key>Placeholders</key>
+					<array>
+						<dict>
+							<key>Range</key>
+							<string>{4, 8}</string>
+							<key>Type</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>let</string>
+					<key>Trigger</key>
+					<string>let</string>
+					<key>Content</key>
+					<string>let constant</string>
+				</dict>
+				<dict>
+					<key>Versions</key>
+					<array/>
+					<key>Placeholders</key>
+					<array>
+						<dict>
+							<key>Range</key>
+							<string>{8, 10}</string>
+							<key>Type</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>println</string>
+					<key>Trigger</key>
+					<string>println</string>
+					<key>Content</key>
+					<string>println(parameters)</string>
+				</dict>
+        
+				<dict>
+					<key>Versions</key>
+					<array/>
+					<key>Placeholders</key>
+					<array>
+						<dict>
+							<key>Range</key>
+							<string>{7, 10}</string>
+							<key>Type</key>
+							<integer>12</integer>
+						</dict>
+						<dict>
+							<key>Range</key>
+							<string>{24, 4}</string>
+							<key>Type</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>struct</string>
+					<key>Trigger</key>
+					<string>struct</string>
+					<key>Content</key>
+					<string><![CDATA[struct structName {
+    Code
+}
+]]></string>
+				</dict>
+				<dict>
+					<key>Versions</key>
+					<array/>
+					<key>Placeholders</key>
+					<array>
+						<dict>
+							<key>Range</key>
+							<string>{4, 8}</string>
+							<key>Type</key>
+							<integer>12</integer>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>var</string>
+					<key>Trigger</key>
+					<string>var</string>
+					<key>Content</key>
+					<string>var variable</string>
+				</dict>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>
