@@ -136,6 +136,28 @@
         <regex>(\-&gt;)</regex>
       </keywords>
       
+      <!-- Foundation (OS X and iOS) and Application Kit (OS X) -->
+      <keywords id="NS Prefix" color="#400080" background-color="#fff" font-weight="normal" font-style="normal" casesensitive="yes" useforautocomplete="yes" scope="support">
+        <regex>\b(NS\w+)</regex>
+      </keywords>
+      <!-- UIKit (iOS) -->
+      <keywords id="UI Prefix" color="#400080" background-color="#fff" font-weight="normal" font-style="normal" casesensitive="yes" useforautocomplete="yes" scope="support">
+        <regex>\b(UI\w+)</regex>
+      </keywords>
+      <!-- Address Book -->
+      <keywords id="AB Prefix" color="#400080" background-color="#fff" font-weight="normal" font-style="normal" casesensitive="yes" useforautocomplete="yes" scope="support">
+        <regex>\b(AB\w+)</regex>
+      </keywords>
+      <!-- QT Book -->
+      <keywords id="QT Prefix" color="#400080" background-color="#fff" font-weight="normal" font-style="normal" casesensitive="yes" useforautocomplete="yes" scope="style.value.string">
+        <regex>\b(QT\w+)</regex>
+      </keywords>
+      <!-- Core Animation, Core Graphics, Core Image   -->
+      <keywords id="CA, CG and CI Prefix" color="#400080" background-color="#fff" font-weight="normal" font-style="normal" casesensitive="yes" useforautocomplete="yes" scope="style.value.string">
+        <regex>\b(CA\w+)</regex>
+        <regex>\b(CI\w+)</regex>
+        <regex>\b([a-z]{1}CG\w+)|\b(CG\w+)</regex>
+      </keywords>
       
     </default>
   </states>
