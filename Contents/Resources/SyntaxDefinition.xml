@@ -52,11 +52,12 @@
       <keywords id="Objects and variables" scope="markup.tag.attribute.name" casesensitive="no">
         <regex>var\s(\w+)</regex>
         <regex>let\s(\w+)</regex>
-        <regex>(\w+)\.</regex>
+        <regex>(\w+)\s=</regex>
       </keywords>
       
       <keywords id="Properties" scope="language.variable" casesensitive="no">
         <regex>\.([a-z]\w+)</regex>
+        <regex>(\w+)\.</regex>
       </keywords>
       
       <keywords id="Keywords" scope="keyword">
